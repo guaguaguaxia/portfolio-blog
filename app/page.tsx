@@ -7,7 +7,7 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate`}
+        {`程序员，看书、徒步、健身、英语学习。对语言文字有较高的敏感度。`}
       </p>
       <div className="my-8">
         <BlogPosts />
