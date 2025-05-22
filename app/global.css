@@ -104,7 +104,7 @@ html {
 }
 
 .prose strong {
-  @apply font-medium;
+  @apply font-bold; /* Changed from font-medium to font-bold */
 }
 
 .prose ul {
@@ -113,6 +113,10 @@ html {
 
 .prose ol {
   @apply list-decimal pl-6;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-neutral-200 dark:border-neutral-700 pl-4 italic my-4;
 }
 
 .prose > :first-child {
